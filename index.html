@@ -4,12 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Fruit Burst Website </title>
+        <link rel="icon" href="images/logo.png" type="image/icon type">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 
         <script src="https://cdn.tailwindcss.com"></script>
+        <!--script for customize  color   -->
         <script>
             tailwind.config = {
               theme: {
@@ -30,7 +32,9 @@
         </style>
     </head>
     <body class="font-lato mt-4">
+      <!-- Header Section-->
         <header class=" w-screen  md:container md:mx-auto">
+          <!--Navbar section-->
            <nav>
             <div class="navbar  flex-row-reverse lg:flex-row  text-black lg:text-white bg-base-100 md:bg-bt-color lg:bg-bt-color   rounded-full  ">
 
@@ -65,7 +69,7 @@
                 </div>
               </div>
            </nav>
-         
+            <!--Banner or carosel section -->
               <div class="carousel w-full mt-5 md:mt-8 lg:mt-8">
                 
                 <div id="slide1" class="carousel-item relative w-full  justify-center">
@@ -124,6 +128,7 @@
                   </div>
                 </div>
               </div>
+              <!--Bonus section-->
               <div class=" hidden md:block lg:block" >
                 <div class="relative bottom-20 left-40 bg-white flex w-3/4 justify-center items-center text-center gap-10" >
                   <div>
@@ -150,8 +155,10 @@
               </div>
 
         </header>
+        <!--Main section-->
 
         <main class="w-screen  px-10 md:px-20 lg:px-20 md:container md:mx-auto">
+          <!--Timer Section-->
             <div class="text-center md:text-left lg:text-left  md:flex lg:flex justify-around mt-10">
                 <div class="max-w-screen-sm md:w-1/2 lg:w-1/2">
                     <h3 class="text-4xl">Deal of the day</h3>
@@ -571,7 +578,7 @@
 
 
         </main>
-        
+        <!--Footer section-->
           <footer class="footer footer-center mt-10 p-10 bg-ft-color text-primary-content">
             <div>
               <div class="flex justify-center items-center gap-4">
